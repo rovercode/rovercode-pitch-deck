@@ -43,8 +43,20 @@ export default class Presentation extends React.Component {
       >
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <BlockQuote>
-            <Quote>This robot kit is expensive and doesn't work</Quote>
-            <Cite>Us, and probably you</Cite>
+            <Quote>I can't start a robotics club; I don't know anything about coding!</Quote>
+            <Cite>a teacher</Cite>
+          </BlockQuote>
+        </Slide>
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <BlockQuote>
+            <Quote>Wait, the kit costs HOW much?</Quote>
+            <Cite>a teacher trying to start a robotics club</Cite>
+          </BlockQuote>
+        </Slide>
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <BlockQuote>
+            <Quote>Ok, now we have two days left to code everything!</Quote>
+            <Cite>a robotics club coach</Cite>
           </BlockQuote>
         </Slide>
         <Slide transition={['zoom']} bgColor="primary">
