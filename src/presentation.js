@@ -42,6 +42,12 @@ export default class Presentation extends React.Component {
             theme={theme}
             progress={'none'}
         >
+          <Slide transition={['fade']} bgColor="secondary">
+            <Image width="700" src={"https://i.imgur.com/9a5CxZk.png"} style="padding-right:6%" margin="0px auto 0px"/>
+            <Text margin="10px 0 0" textColor="primary" size={1} fit bold>
+              hit the ground coding
+            </Text>
+          </Slide>
           <Slide transition={['fade']} bgColor="secondary" textColor="primary">
             <BlockQuote>
               <Quote>I can't start a robotics club; I don't know anything about coding!</Quote>
